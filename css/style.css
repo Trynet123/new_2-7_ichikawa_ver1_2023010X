@@ -1,0 +1,151 @@
+/* 共通 */
+body {
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  line-height: 1.7;
+  color: #000;
+  font-family: "Noto Sans JP", "Yu Gothic", "ヒラギノ角ゴシック",
+    "Hiragino Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
+    "游ゴシック", YuGothic, "メイリオ", Meiryo, "源ノ角ゴシック JP", sans-serif;
+  font-weight: 500;
+}
+
+* a:hover {
+  opacity: 0.6;
+}
+
+.anchor {
+  display: block;
+  padding-top: 70px;
+  margin-top: -70px;
+}
+
+.container {
+  display: block;
+  box-sizing: content-box;
+  margin: 0 auto;
+  /* max-width: 1023px; */
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.section-title {
+  padding-bottom: 7px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+}
+
+.section-title::after {
+  content: "";
+  width: 75px;
+  height: 2px;
+  display: block;
+  background-color: #ec5f5c;
+  margin-left: 10px;
+}
+
+.cv-btn-box>a:first-child>img {
+  width: 140px;
+  height: 50px;
+}
+
+.cv-btn-box>a:last-child>img {
+  width: 170px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+/* ヘッダー */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 115px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.header-container {
+  max-width: 1260px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.header-logo {
+  width: 130px;
+}
+
+.header-logo a {
+  display: flex;
+}
+
+.header-gnav-list {
+  display: flex;
+}
+
+.header-gnav-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header-gnav-item>a {
+  color: #000;
+  text-decoration: none;
+}
+
+.header-gnav-btn {
+  display: none;
+}
+
+/* メインビジュアル */
+.mv {
+  margin-top: 115px;
+  background: url(../img/mv_bg.png);
+  background-position: 0 bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mv-container {
+  padding-top: 30px;
+  max-width: 1040px;
+  padding-bottom: 10px;
+}
+
+/* Aboutセクション */
+.about {
+  background-color: #ec5f5c;
+}
+
+.about-container {
+  max-width: 1040px;
+}
+
+/* Featureセクション */
+.feature-container {
+  max-width: 820px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+
+/* FAQセクション */
+.faq {
+  background-color: #2f2e41;
+  color: #fff;
+}
+
+.faq-container {
+  max-width: 750px;
+}
+
+
+
+
+
