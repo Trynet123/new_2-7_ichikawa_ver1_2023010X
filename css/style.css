@@ -46,6 +46,12 @@ body {
   margin-left: 10px;
 }
 
+.section-title:not(.m-about), .section-title-jp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .cv-btn-box>a:first-child>img {
   width: 140px;
   height: 50px;
@@ -269,12 +275,6 @@ body {
   padding-top: 100px;
   max-width: 750px;
   padding-bottom: 100px;
-}
-
-.m-faq, .m-faq-jp {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .question {
