@@ -24,7 +24,6 @@ body {
   display: block;
   box-sizing: content-box;
   margin: 0 auto;
-  /* max-width: 1023px; */
   padding-left: 48px;
   padding-right: 48px;
 }
@@ -119,9 +118,47 @@ body {
   padding-bottom: 10px;
 }
 
+.mv-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mv-box {
+  width: max-content;
+}
+
+.mv-box p:first-child {
+  font-size: 35px;
+  font-weight: 700;
+  /* letter-spacing: 0.1em; */
+  padding-top: 147px;
+}
+
+.mv-box p:nth-of-type(2) {
+  margin-bottom: 55px;
+  padding-top: 2px;
+}
+
 .mv-img {
   max-width: 580px;
-  padding-left: 116px;
+  padding-left: 110px;
+}
+
+.scroll-icon {
+  text-align: center;
+  color: #fff;
+  padding-top: 139px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.scroll-icon::after {
+  content: "";
+  width: 1px;
+  height: 30px;
+  background-color: #fff;
+  display: block;
+  margin: 1px auto 10px;
 }
 
 /* Aboutセクション */
@@ -135,9 +172,48 @@ body {
   padding-bottom: 230px;
 }
 
+.about-box {
+  display: flex;
+  /* padding-top: 140px;
+  padding-bottom: 220px;
+  padding-left: 8px; */
+}
+
 .about-img {
   max-width: 390px;
 }
+
+.about-body {
+  color: #fff;
+  padding-top: 28px;
+  max-width: 440px;
+  padding-left: 210px;
+}
+
+.m-about::after {
+  content: "";
+  background-color: #fff;
+}
+
+.about-description {
+  font-size: 25px;
+  letter-spacing: 0.14em;
+  /* TODO: 文字幅は要調整 */
+  line-height: 1.5em;
+  padding-bottom: 38px;
+}
+
+.about-description-detail {
+  letter-spacing: 0.15em;
+}
+
+.board {
+  font-family: "Roboto", sans-serif;
+}
+
+/* .board-jp {
+  letter-spacing: 0.29em;
+} */
 
 /* Featureセクション */
 .feature-container {
