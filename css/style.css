@@ -284,7 +284,7 @@ body {
 
 .question {
   font-weight: 700;
-  padding-top: 40px;
+  padding-top: 42px;
   padding-bottom: 40px;
   border-bottom: solid #fff 1px;
   display: flex;
@@ -293,18 +293,7 @@ body {
   position: relative;
 }
 
-.question:first-child::before {
-  content: "";
-  display: inline-block;
-  width: 28px;
-  height: 2px;
-  background-color: #fff;
-  position: absolute;
-  right: 0;
-  top: 5px;
-}
-
-.question:not(:first-child)::before {
+.question::before {
   content: "";
   display: inline-block;
   width: 28px;
