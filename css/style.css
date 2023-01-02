@@ -104,7 +104,6 @@ body {
 
 /* メインビジュアル */
 .mv {
-  /* margin-top: 115px; */
   background: url(../img/mv_bg.png);
   background-position: 0 bottom;
   background-repeat: no-repeat;
@@ -130,7 +129,6 @@ body {
 .mv-box p:first-child {
   font-size: 35px;
   font-weight: 700;
-  /* letter-spacing: 0.1em; */
   padding-top: 147px;
 }
 
@@ -174,9 +172,6 @@ body {
 
 .about-box {
   display: flex;
-  /* padding-top: 140px;
-  padding-bottom: 220px;
-  padding-left: 8px; */
 }
 
 .about-img {
@@ -210,10 +205,6 @@ body {
 .board {
   font-family: "Roboto", sans-serif;
 }
-
-/* .board-jp {
-  letter-spacing: 0.29em;
-} */
 
 /* Featureセクション */
 .feature-container {
