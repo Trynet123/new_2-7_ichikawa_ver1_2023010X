@@ -30,6 +30,146 @@
   .about-container {
     max-width: 325px;
   }
+
+  /* Featureセクション */
+  .feature-container {
+    padding-top: 122px;
+    max-width: 295px;
+  }
+
+  .feature {
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+  .feature:not(:last-child) {
+    padding-bottom: 85px;
+  }
+
+  .feature:nth-of-type(even) {
+    flex-direction: column;
+  }
+
+  .section-title-jp {
+    padding-bottom: 66px;
+  }
+
+  .feature-img {
+    padding-top: 4px;
+    width: 100%;
+  }
+
+  .feature-txt-box {
+    width: 100%;
+  }
+
+  .feature-txt-title {
+    font-size: 20px;
+    padding-bottom: 12px;
+    letter-spacing: 0.13em;
+  }
+
+  .feature-txt {
+    font-size: 14px;
+  }
+
+  /* FAQセクション */
+  .faq-container {
+    max-width: 295px;
+    padding-top: 120px;
+    padding-bottom: 97px;
+  }
+
+  .m-faq-jp {
+    padding-bottom: 60px;
+  }
+
+  .question {
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 0.15em;
+  }
+
+  .question:nth-of-type(3) {
+    padding-top: 28px;
+    padding-bottom: 29px;
+  }
+
+  .answer {
+    font-size: 14px;
+    padding-bottom: 28px;
+  }
+
+  .question::before {
+    width: 20px;
+  }
+
+  .question:not(:first-child)::after {
+    width: 20px;
+  }
+
+  /* Devicesセクション */
+  .devices-container {
+    padding-top: 122px;
+    max-width: 255px;
+    padding-bottom: 140px;
+  }
+
+  .devices-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
+  }
+
+  .devices-title {
+    padding-bottom: 70px;
+  }
+
+  .bg {
+    height: 610px;
+    bottom: 100px;
+  }
+
+  .devices-item {
+    width: 100%;
+  }
+
+  .devices-item>p {
+    padding-bottom: 12px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  /* フッター */
+  .footer-container {
+    padding-top: 70px;
+    max-width: 325px;
+    padding-bottom: 40px;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 70px;
+  }
+
+  .footer-nav>a:not(:nth-of-type(4)):not(:last-child)::after {
+    display: none;
+  }
+
+  .footer-nav>a {
+    padding-right: 0;
+  }
+
+  .copyright {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+  }
 }
 
 @media screen and (max-width: 1023px) {
@@ -146,117 +286,6 @@
     padding-top: 45px;
   }
 
-  /* Featureセクション */
-  .feature-container {
-    padding-top: 122px;
-    max-width: 295px;
-  }
-
-  .feature {
-    flex-direction: column;
-    width: 100%;
-    padding-bottom: 0;
-  }
-
-  .feature:not(:last-child) {
-    padding-bottom: 85px;
-  }
-
-  .feature:nth-of-type(even) {
-    flex-direction: column;
-  }
-
-  .section-title-jp {
-    padding-bottom: 66px;
-  }
-
-  .feature-img {
-    padding-top: 4px;
-    width: 100%;
-  }
-
-  .feature-txt-box {
-    width: 100%;
-  }
-
-  .feature-txt-title {
-    font-size: 20px;
-    padding-bottom: 12px;
-    letter-spacing: 0.13em;
-  }
-
-  .feature-txt {
-    font-size: 14px;
-  }
-
-  /* FAQセクション */
-  .faq-container {
-    max-width: 295px;
-    padding-top: 120px;
-    padding-bottom: 97px;
-  }
-
-  .m-faq-jp {
-    padding-bottom: 60px;
-  }
-
-  .question {
-    font-size: 14px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    letter-spacing: 0.15em;
-  }
-
-  .question:nth-of-type(3) {
-    padding-top: 28px;
-    padding-bottom: 29px;
-  }
-
-  .answer {
-    font-size: 14px;
-    padding-bottom: 28px;
-  }
-
-  .question::before {
-    width: 20px;
-  }
-
-  .question:not(:first-child)::after {
-    width: 20px;
-  }
-
-  /* Devicesセクション */
-  .devices-container {
-    padding-top: 122px;
-    max-width: 255px;
-    padding-bottom: 140px;
-  }
-
-  .devices-list {
-    flex-direction: column;
-    align-items: center;
-    gap: 29px;
-  }
-
-  .devices-title {
-    padding-bottom: 70px;
-  }
-
-  .bg {
-    height: 610px;
-    bottom: 100px;
-  }
-
-  .devices-item {
-    width: 100%;
-  }
-
-  .devices-item>p {
-    padding-bottom: 12px;
-    font-size: 15px;
-    font-weight: 700;
-  }
-
   /* Bottomセクション */
   .cv-container {
     flex-direction: column;
@@ -284,34 +313,5 @@
   .cv-box>p {
     padding-top: 0px;
     padding-bottom: 50px;
-  }
-
-  /* フッター */
-  .footer-container {
-    padding-top: 70px;
-    max-width: 325px;
-    padding-bottom: 40px;
-  }
-
-  .footer-nav {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    padding-bottom: 70px;
-  }
-
-  .footer-nav>a:not(:nth-of-type(4)):not(:last-child)::after {
-    display: none;
-  }
-
-  .footer-nav>a {
-    padding-right: 0;
-  }
-
-  .copyright {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: max-content;
   }
 }
