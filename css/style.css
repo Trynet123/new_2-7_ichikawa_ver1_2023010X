@@ -46,7 +46,8 @@ body {
   margin-left: 10px;
 }
 
-.section-title:not(.m-about), .section-title-jp {
+.section-title:not(.m-about),
+.section-title-jp {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -393,7 +394,7 @@ body {
   padding-bottom: 12px;
 }
 
-/* bottom */
+/* Bottom */
 .cv {
   background-color: #ec5f5c;
   color: #fff;

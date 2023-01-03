@@ -223,4 +223,33 @@
   .devices-item {
     width: 100%;
   }
+
+  /* Bottomセクション */
+  .cv-container {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
+
+  .cv-img {
+    width: 100%;
+  }
+
+  .logo-white-img {
+    width: 104px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .cv-box {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+
+  .cv-box>p {
+    padding-top: 7px;
+    padding-bottom: 58px;
+  }
 }
