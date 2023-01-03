@@ -129,7 +129,6 @@
 
   /* Featureセクション */
   .feature-container {
-    /* margin-bottom: 115px; */
     max-width: 295px;
   }
 
@@ -166,5 +165,57 @@
 
   .feature-txt {
     font-size: 14px;
+  }
+
+  /* FAQセクション */
+  .faq-container {
+    max-width: 295px;
+    padding-top: 120px;
+    padding-bottom: 97px;
+  }
+
+  .m-faq-jp {
+    padding-bottom: 58px;
+  }
+
+  .question {
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 0.15em;
+  }
+
+  .question:nth-of-type(3) {
+    padding-top: 28px;
+    padding-bottom: 29px;
+  }
+
+  .answer {
+    font-size: 14px;
+    padding-bottom: 28px;
+  }
+
+  .question::before {
+    width: 20px;
+  }
+
+  .question:not(:first-child)::after {
+    width: 20px;
+  }
+
+  /* Devicesセクション */
+  .devices-container {
+    padding-bottom: 150px;
+  }
+
+  .devices-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .bg {
+    height: 637px;
+    bottom: 120px;
   }
 }
