@@ -1,3 +1,48 @@
-@media screen and (max-width: 1140px) {
-  
+@media screen and (max-width: 767px) {
+  /* 共通 */
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+    /* ヘッダー */
+  .header {
+    height: 72px;
+  }
+
+  .header-logo>a>img {
+    width: 104px;
+  }
+
+    .header-gnav-btn {
+    display: block;
+  }
+
+  .header-gnav {
+    display: none;
+  }
+
+  .header-gnav-bar {
+    display: block;
+    height: 3px;
+    background-color: black;
+  }
+
+  .m-top {
+    width: 22px;
+  }
+
+  .m-middle {
+    width: 30px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .m-bottom {
+    width: 23px;
+  }
 }
