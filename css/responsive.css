@@ -92,28 +92,31 @@
     margin-bottom: 34px;
   }
 
-  /* TODO:コンテナのボトムか、スクロールのボトム修正 */
-
   /* Aboutセクション */
   .about-container {
-    padding-top: 120px;
-    padding-bottom: 0;
+    padding-top: 90px;
+    padding-bottom: 100px;
   }
 
   .about-body {
     width: 100%;
-    padding-bottom: 50px;
+  }
+
+  .m-about {
+    padding-left: 0;
   }
 
   .about-description {
     padding-top: 3px;
     font-size: 20px;
     letter-spacing: 0.16em;
+    padding-left: 0;
   }
 
   .about-description-detail {
     font-size: 14px;
     letter-spacing: 0.1em;
+    padding-left: 0;
   }
 
   .board-jp {
@@ -122,14 +125,12 @@
 
   .about-box {
     flex-direction: column-reverse;
-    padding-top: 0;
-    padding-bottom: 100px;
-    /* padding-bottom: 90px; */
   }
 
   .about-img {
     /* 390/1040 */
     width: 100%;
+    padding-top: 45px;
   }
 
   /* Featureセクション */
