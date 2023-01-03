@@ -45,4 +45,48 @@
   .m-bottom {
     width: 23px;
   }
+
+    /* メインビジュアル */
+  .mv {
+    background: url(../img/mv_bg_sp.png);
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .mv-container {
+    margin-top: 72px;
+    padding-top: 50px;
+  }
+
+  .mv-area {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mv-box {
+    text-align: center;
+  }
+
+  .mv-box p:first-child {
+    font-size: 25px;
+    padding-top: 0px;
+  }
+
+  .mv-img {
+    padding-top: 25px;
+    /* TODO: 多分 */
+    width: 100%;
+  }
+
+  .scroll-icon {
+    padding-top: 30px;
+  }
+
+  .scroll-icon::after {
+    margin-bottom: 40px;
+  }
+
+  /* TODO:コンテナのボトムか、スクロールのボトム修正 */
+  
 }
