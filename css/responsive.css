@@ -127,5 +127,44 @@
     width: 100%;
   }
 
+  /* Featureセクション */
+  .feature-container {
+    /* margin-bottom: 115px; */
+    max-width: 295px;
+  }
 
+  .feature {
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+  .feature:not(:last-child) {
+    padding-bottom: 85px;
+  }
+
+  .feature:nth-of-type(even) {
+    flex-direction: column;
+  }
+
+  .section-title-jp {
+    padding-bottom: 66px;
+  }
+
+  .feature-img {
+    padding-top: 4px;
+    width: 100%;
+  }
+
+  .feature-txt-box {
+    width: 100%;
+  }
+
+  .feature-txt-num {
+    padding-top: 0px;
+  }
+
+  .feature-txt {
+    font-size: 14px;
+  }
 }
