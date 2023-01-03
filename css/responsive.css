@@ -13,6 +13,7 @@
   .section-title {
     padding-bottom: 9px;
   }
+
   /* ヘッダー */
   .header {
     height: 72px;
@@ -217,14 +218,19 @@
 
   /* Devicesセクション */
   .devices-container {
+    padding-top: 122px;
     max-width: 255px;
-    padding-bottom: 150px;
+    padding-bottom: 140px;
   }
 
   .devices-list {
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 29px;
+  }
+
+  .devices-title {
+    padding-bottom: 70px;
   }
 
   .bg {
@@ -236,12 +242,18 @@
     width: 100%;
   }
 
+  .devices-item>p {
+    padding-bottom: 12px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
   /* Bottomセクション */
   .cv-container {
     flex-direction: column;
     align-items: center;
-    padding-top: 120px;
-    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 95px;
   }
 
   .cv-img {
@@ -261,8 +273,8 @@
   }
 
   .cv-box>p {
-    padding-top: 7px;
-    padding-bottom: 58px;
+    padding-top: 0px;
+    padding-bottom: 50px;
   }
 
   /* フッター */
