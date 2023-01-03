@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
 
   /* 共通 */
   body {
@@ -85,7 +85,7 @@
 
   .mv-img {
     padding-top: 25px;
-    width: 100%;
+    width: 325px;
   }
 
   .scroll-icon {
@@ -99,6 +99,7 @@
   /* Aboutセクション */
   .about-container {
     padding-top: 90px;
+    max-width: 325px;
     padding-bottom: 100px;
   }
 
@@ -133,7 +134,7 @@
 
   .about-img {
     /* 390/1040 */
-    width: 100%;
+    width: 325px;
     padding-top: 45px;
   }
 
@@ -257,7 +258,7 @@
   }
 
   .cv-img {
-    width: 100%;
+    width: 325px;
   }
 
   .logo-white-img {
@@ -280,6 +281,7 @@
   /* フッター */
   .footer-container {
     padding-top: 70px;
+    max-width: 325px;
     padding-bottom: 40px;
   }
 
