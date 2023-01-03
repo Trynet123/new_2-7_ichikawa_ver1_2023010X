@@ -15,6 +15,11 @@
     height: 72px;
   }
 
+  .header-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   .header-logo>a>img {
     width: 104px;
   }
