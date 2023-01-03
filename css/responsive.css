@@ -1,4 +1,5 @@
 @media screen and (max-width: 767px) {
+
   /* 共通 */
   body {
     font-size: 14px;
@@ -9,7 +10,7 @@
     padding-right: 25px;
   }
 
-    /* ヘッダー */
+  /* ヘッダー */
   .header {
     height: 72px;
   }
@@ -18,7 +19,7 @@
     width: 104px;
   }
 
-    .header-gnav-btn {
+  .header-gnav-btn {
     display: block;
   }
 
@@ -46,7 +47,7 @@
     width: 23px;
   }
 
-    /* メインビジュアル */
+  /* メインビジュアル */
   .mv {
     background: url(../img/mv_bg_sp.png);
     background-position: 0 bottom;
@@ -75,7 +76,6 @@
 
   .mv-img {
     padding-top: 25px;
-    /* TODO: 多分 */
     width: 100%;
   }
 
@@ -88,5 +88,44 @@
   }
 
   /* TODO:コンテナのボトムか、スクロールのボトム修正 */
-  
+
+  /* Aboutセクション */
+  .about-container {
+    padding-top: 120px;
+    padding-bottom: 0;
+  }
+
+  .about-body {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  .about-description {
+    padding-top: 3px;
+    font-size: 20px;
+    letter-spacing: 0.16em;
+  }
+
+  .about-description-detail {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+  }
+
+  .board-jp {
+    letter-spacing: 0.1em;
+  }
+
+  .about-box {
+    flex-direction: column-reverse;
+    padding-top: 0;
+    padding-bottom: 100px;
+    /* padding-bottom: 90px; */
+  }
+
+  .about-img {
+    /* 390/1040 */
+    width: 100%;
+  }
+
+
 }
